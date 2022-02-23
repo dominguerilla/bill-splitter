@@ -1,0 +1,29 @@
+# Regex is ^(?![#\n])([\w\s\+]+)+\s+\(\$(\d+(?:\.\d+)?)\):\s*((?:\w[,\s]*)+|ALL)$
+# Lines that start with '#' or are empty are ignored!
+# Playing with regex was fun, but I could've just written this down in CSV.
+
+Carpe Diem ($60): Carlos, Sujay, Dan, Zach
+Guinness ($7.00): Chris
+Smoky Manhattan ($18.00): Daryl
+Maine Lunch IPA ($8.50): Sujay
+Prime 94 Tower ($120): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Beef Sliders ($12.95): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Prime Meatballs ($10.95): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Wagyu Filet Mignon + Lobster Tail ($145): Carlos
+Wagyu Filet Mignon ($120): Dan 
+Tomahawk ($120): Chris, Zach
+Lobster Mac n Cheese ($18.95): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Creamed Spinach ($8.95): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Mashed Potatoes ($8.95): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Asparagus ($8.95): Carlos, Daryl, Dan, Zach, Chris, Sujay
+Winter Spice Margarita ($15): Chris
+Tiramisu ($9.50): Carlos, Daryl, Dan, Zach, Chris
+Pistachio Tartufo ($9.50): Carlos, Daryl, Dan, Zach, Chris
+Cheesecake ($9.50): Carlos, Daryl, Dan, Zach, Chris
+Chocolate Lava Cake ($9.50): Carlos, Daryl, Dan, Zach, Chris
+Espresso Martini ($15): Daryl
+Chocolate Martini ($13): Carlos
+Irish Cream ($10): Chris
+Rib Eye ($85.90): Sujay, Daryl
+Smoked Old Fashioned ($36): Carlos, Daryl
+
